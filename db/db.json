@@ -1,0 +1,94 @@
+{
+  "students": [
+    {
+      "name": "Аяна",
+      "surname": "Темирбекова",
+      "tasks": "100",
+      "interview": "100",
+      "hack": "100",
+      "kpi": "100",
+      "id": 1
+    },
+    {
+      "name": "Хими",
+      "surname": "Арми",
+      "tasks": "100",
+      "interview": "100",
+      "hack": "100",
+      "kpi": "100",
+      "id": 2
+    },
+    {
+      "name": "Азрет",
+      "surname": "Молдобаев",
+      "tasks": "90",
+      "interview": "80",
+      "hack": "100",
+      "kpi": "90",
+      "id": 3
+    },
+    {
+      "name": "Данияр",
+      "surname": "Анарбек уулу",
+      "tasks": "24",
+      "interview": "50",
+      "hack": "76",
+      "kpi": "50",
+      "id": 4
+    },
+    {
+      "name": "Руслан",
+      "surname": "Дуйшеев",
+      "tasks": "20",
+      "interview": "10",
+      "hack": "36",
+      "kpi": "22",
+      "id": 5
+    },
+    {
+      "name": "Радмир",
+      "surname": "Аджимуратов",
+      "tasks": "12",
+      "interview": "12",
+      "hack": "21",
+      "kpi": "15",
+      "id": 6
+    },
+    {
+      "name": "Жанарбек",
+      "surname": "Тилеков",
+      "tasks": "82",
+      "interview": "100",
+      "hack": "94",
+      "kpi": "92",
+      "id": 7
+    },
+    {
+      "name": "Бекжан",
+      "surname": "Бекмурзаев",
+      "tasks": "96",
+      "interview": "76",
+      "hack": "89",
+      "kpi": "87",
+      "id": 8
+    },
+    {
+      "name": "Чынгыз",
+      "surname": "Дамирбеков",
+      "tasks": "70",
+      "interview": "70",
+      "hack": "100",
+      "kpi": "80",
+      "id": 9
+    },
+    {
+      "name": "Алишер",
+      "surname": "Жакшылыков",
+      "tasks": "68",
+      "interview": "80",
+      "hack": "80",
+      "kpi": "76",
+      "id": 10
+    }
+  ]
+}

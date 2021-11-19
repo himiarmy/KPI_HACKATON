@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPI</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <main class="holder">
+        <div class="wrapper">
+            <div class="header">
+                <div class="header__nav-left">
+                    <img class="logo" src="./img/logo.jfif" alt="">
+                </div>
+                <div class="header__nav-right">
+                    <ul class="menu">
+
+                        <li class="menu__item"><a href="#add-kpi">Add Student</a></li>
+                            <li class="menu__item"><a href="#student-info">Student Info</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="search" id="search">
+                <input type="text" name="name" required>
+                <button class="search-btn">Search</button>
+                <div class="result-list" id="">
+                    <ul class="result"></ul>
+                    <div class="pagination">
+                        <button class="prev-btn-search"> <= Prev</button>
+                        <button class="next-btn-search">Next =></button>
+                    </div>   
+                </div>
+            </div>
+
+            <table class="table" id="student-info">
+                <thead>
+                    <tr>
+                        <th class="kpi-head">Name</th>
+                        <th class="kpi-head">Surname</th>
+                        <th class="kpi-head">Tasks</th>
+                        <th class="kpi-head">Interview</th>
+                        <th class="kpi-head">Hackathon</th>
+                        <th class="kpi-head">KPI</th>
+                        <th class="kpi-head">Edit</th>
+                        <th class="kpi-head">Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+                </tbody>
+                <tfoot>
+                </tfoot>
+            </table>
+            
+
+            <div class="pagination">
+                <button class="prev-btn"> < </button>
+                <button class="next-btn"> > </button>
+            </div>            
+
+            <div class="students-wrapper">
+                <form class="myForm" id="add-kpi" action="http://localhost:8000/students" method="POST">
+                        <h2>Add Student</h2>
+                        <div> <span>Name: </span>
+                            <input type="text" name="name" class="name" placeholder="Name">
+                        </div>
+                        <div> <span>Surname: </span>
+                            <input type="text" name="surname" class="surname" placeholder="Surname">
+                        </div>
+                        <div><span>Tasks</span>
+                            <input type="number" name="tasks" class="tasks" placeholder="Tasks">
+                        </div>
+                        <div> <span>Interview</span>
+                            <input type="number" name="interview" class="interview" placeholder="Interview">
+                        </div>
+                        <div><span>Hackathon</span>
+                            <input type="number" name="hack" class="hack" placeholder="Hackathon">
+                        </div>
+                        <input type="submit"  class="btn" id="btn-add" value="Add">                        
+                </form>
+            </div>
+
+
+            <div class="modal-fade">
+                <div class="modal">
+                    <a href="#" class="modal-close">Close</a>
+                    <form class="inputs">
+                        <div> <span>Name: </span>
+                            <input type="text" name="name" class="name" placeholder="Name">
+                        </div>
+                        <div> <span>Surname: </span>
+                            <input type="text" name="surname" class="surname" placeholder="Surname">
+                        </div>
+                        <div><span>Tasks</span>
+                            <input type="number" name="tasks" class="tasks" placeholder="Tasks">
+                        </div>
+                        <div> <span>Interview</span>
+                            <input type="number" name="interview" class="interview" placeholder="Interview">
+                        </div>
+                        <div><span>Hackathon</span>
+                            <input type="number" name="hack" class="hack" placeholder="Hackathon">
+                        </div>                    
+                        <input type="submit"  class="btn" value="Add">
+                    </form>            
+                </div>
+            </div>
+        </div>
+    </main>
+    </div>
+    <script src="./js/main.js"></script>   
+</body>
+</html>
